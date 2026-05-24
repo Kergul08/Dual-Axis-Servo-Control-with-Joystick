@@ -10,9 +10,9 @@ Real-time control of two servo motors using analog joystick inputs, featuring a 
 ## How It Works
 The system interfaces with a dual-axis analog joystick and two standard servo motors. The joystick's **X** and **Y** potentiometers output variable analog voltages, which the Arduino samples via `analogRead()` as integers between `0` and `1023`.
 Inside the execution `loop()`:
-*The raw inputs are scaled to an angular range of 0 to 180 degrees using a floating-point linear equation: `(180 / 1023.) * xVal`.
-*The calculated positions are directly transmitted to the hardware using `xServo.write()` and `yServo.write()`.
-*The joystick's integrated click-switch is read via `digitalRead()`. A `LOW` (`0`) state triggers `ledPin` to `HIGH`, illuminating the indicator.
+* The raw inputs are scaled to an angular range of 0 to 180 degrees using a floating-point linear equation: `(180 / 1023.) * xVal`.
+* The calculated positions are directly transmitted to the hardware using `xServo.write()` and `yServo.write()`.
+* The joystick's integrated click-switch is read via `digitalRead()`. A `LOW` (`0`) state triggers `ledPin` to `HIGH`, illuminating the indicator.
 
 ---
  ## Components
