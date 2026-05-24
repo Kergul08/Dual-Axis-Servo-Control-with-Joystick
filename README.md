@@ -4,7 +4,7 @@ Real-time control of two servo motors using analog joystick inputs, featuring a 
 >Built while following [Paul McWhorter's Arduino Tutorials](https://www.youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP) series
 ---
 ## Demo
-![Project Demo](Dual-Axis-Servo-Control-with-Joystick.gif)
+![Project Demo](Servo_wJoystick.gif)
 
 ---
 ## How It Works
